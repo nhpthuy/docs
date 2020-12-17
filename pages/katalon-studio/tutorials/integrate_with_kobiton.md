@@ -21,7 +21,7 @@ redirect_from:
     - "/katalon-studio/docs/enable-kobiton-integration/"
 ---
 
-> From version 7.8 onwards, Katalon Studio supports SSO for authentication with Kobiton Server.
+> From version 7.8 onwards, SSO for authenticating with Kobiton Server is available. This enhancement enables the authentication by username/password and SAML SSO login methods in Kobiton.
 
 ## Enable Kobiton Integration
 
@@ -42,7 +42,7 @@ First you need to install the [Kobiton Integration](https://store.katalon.com/pr
    where:
 
    * **Kobiton Server**: The Kobiton server to be integrated with Katalon Studio.
-   * **API Key**: The token to be used by Katalon Studio when exchanging API messages with Kobiton server. You can generate more keys in [Kobiton API Settings](https://portal.kobiton.com/settings/keys).
+   * **API Key**: The token to be used by Katalon Studio when exchanging API messages with Kobiton server. Sign in and generate keys in [Kobiton API Settings](https://portal.kobiton.com/settings/keys).
 
 * **Before 7.8**, enter your Kobiton account in the **Authentication** form and click **Connect**. Katalon Studio retrieves the information for Kobiton integration automatically.
 
